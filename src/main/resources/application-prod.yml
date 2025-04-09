@@ -1,0 +1,14 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: springboot-scaffolding
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://120.26.32.140:3306/mydb?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: admin
+    password: Qb,799297
+
+logging:
+  file:
+    path: /opt/logs
